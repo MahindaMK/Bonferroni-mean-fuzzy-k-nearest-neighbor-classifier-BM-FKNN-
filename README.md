@@ -14,4 +14,4 @@ Reference:
     the Bonferroni mean. *Pattern Recognition Letters*, 140, 172-178.](https://doi.org/10.1016/j.patrec.2020.10.005)<br/>
 <br/>
  Created by Mahinda Mailagaha Kumbure & Pasi Luukka, 10/2020 <br/>
-Based on Keller's definition of the fuzzy k-nearest neighbor algorithm.<br/>
+Based on Keller's definition of the fuzzy k-nearest neighbor algorithm. <br/>
