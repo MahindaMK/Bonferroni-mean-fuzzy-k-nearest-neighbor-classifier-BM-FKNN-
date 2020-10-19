@@ -6,7 +6,7 @@ value fitting. The BM-FKNN classifier can perform well also in situations where 
 
 **Matlab functions:** <br/>
 The functions of the BM-FKNN algorithm (`BM_FKNN.m`), Bonferroni mean computation (`Bonferrni_mean`) are included. In addition to those files, 
-an example (`Example.m`) of the use of BM_FKNN classifier is presented. `Bonferroni_mean.m` is needed to compute Bonferroni mean vectors of the 
+an example (`Example.m`) of the use of BM_FKNN classifier is also presented. `Bonferroni_mean.m` is needed to compute Bonferroni mean vectors of the 
 set of nearest neighbor in each class.<br/>
 
 Reference:
