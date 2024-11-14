@@ -58,8 +58,8 @@ for i=1:num_test
     distances        = (repmat(Xtest(i,:), num_train,1) - Xtrain).^2;
     distances        = sum(distances,2)';
 
-    [~, indeces]     = sort(distances);     % Sort the distances
-    neighbor_index   = indeces(1:K);  % Find the indeces of nearest neighbors
+    [~, indices]     = sort(distances);     % Sort the distances
+    neighbor_index   = indices(1:K);  % Find the indices of nearest neighbors
 
     Xneighbors       = Xtrain(neighbor_index,:); % Set of nearest neighbors
     Yneighbors       = Ytrain(neighbor_index);   % Class labels of the nearest neighbors
